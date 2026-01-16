@@ -1,12 +1,8 @@
 ## Hello les BG 👋
 
-Bienvenue chez les geeks Magnetic
+Bienvenue chez les geeks Magnetic !
 
-- [Repos git](https://github.com/orgs/magnetic-play/repositories)
-- [Packages NPM](https://github.com/orgs/magnetic-play/packages)
-
-
-Pour utiliser les packages, ajouter à `~/.npmrc` :
+Pour utiliser les packages NPM, ajouter à `~/.npmrc` :
 ```
 @magnetic-play:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken={GITHUB_TOKEN}
