@@ -2,12 +2,22 @@
 
 Bienvenue chez les geeks Magnetic !
 
-Pour utiliser les packages NPM, ajouter à `~/.npmrc` :
-```
-@magnetic-play:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken={GITHUB_TOKEN}
-```
-cf. [doc](https://docs.github.com/fr/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+### Packages NPM privés
+
+Pour les utiliser :
+
+1. Créer un token GitHub  
+   - Aller sur [Settings / Developper / Tokens](https://github.com/settings/tokens)
+   - Générer un token classique avec droits de download des packages (`read:packages`)
+
+2. Ajouter à `~/.npmrc` (cf. [doc](https://docs.github.com/fr/packages/working-with-a-github-packages-registry/working-with-the-npm-registry))
+
+   ```
+   @magnetic-play:registry=https://npm.pkg.github.com
+   //npm.pkg.github.com/:_authToken={TOKEN}
+    ```
+
+Ça permet de résoudre les `pnpm install @magnetic-play/XXX`
 
 <!--
 
